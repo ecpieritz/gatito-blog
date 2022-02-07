@@ -1,10 +1,14 @@
 body {
   background-color: var(--beige-light);
   color: #222222;
+  font-family: "Montserrat", sans-serif;
 }
 
+/* ----------------
+ ----- HEADER -----
+ ------------------ */
 .gt-header {
-  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
 }
 
 .gt-header__logo {
@@ -48,5 +52,34 @@ body {
 .gt-header__menu .gt-menu__list .gt-menu__links .gt-menu__link:hover {
   color: #030eda;
 }
+
+/* -------------------
+----- END HEADER -----
+---------------------- */
+/* ----------------
+ ----- FOOTER -----
+ ------------------ */
+.gt-footer {
+  text-align: center;
+  padding: 20px 0;
+  /* Position footer on bottom */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gt-footer .gt-footer__logo {
+  max-width: 100px;
+}
+
+.gt-footer .gt-footer__txt {
+  margin: auto;
+  font-size: 14px;
+}
+
+/* --------------------
+ ----- END FOOTER -----
+ ---------------------- */
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,4 @@
+/// Project colors
 $beige-light: #daccbf;
 $beige: #bea185;
 $black: #222222;
@@ -6,13 +7,14 @@ $blue: #030eda;
 body{
   background-color: var(--beige-light);
   color: $black;
+  font-family: 'Montserrat', sans-serif;
 }
 
-// ------------------
-// ----- HEADER -----
-// ------------------
+/* ----------------
+ ----- HEADER -----
+ ------------------ */
 .gt-header{
-  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
 }
 .gt-header__logo{
   text-align: center;
@@ -49,6 +51,29 @@ body{
 .gt-header__menu .gt-menu__list .gt-menu__links .gt-menu__link:hover{
   color: $blue;
 }
-// ----------------------
-// ----- END HEADER -----
-// ----------------------
+ /* -------------------
+ ----- END HEADER -----
+ ---------------------- */
+
+/* ----------------
+ ----- FOOTER -----
+ ------------------ */
+.gt-footer{
+  text-align: center;
+  padding: 20px 0;
+  /* Position footer on bottom */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.gt-footer .gt-footer__logo{
+  max-width: 100px;
+}
+.gt-footer .gt-footer__txt{
+  margin: auto;
+  font-size: 14px;
+}
+/* --------------------
+ ----- END FOOTER -----
+ ---------------------- */
