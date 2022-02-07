@@ -15,41 +15,43 @@ body{
  ------------------ */
 .gt-header{
   margin-bottom: 20px;
-}
-.gt-header__logo{
-  text-align: center;
-}
-.gt-header__logo .gt-header__img{
-  max-width: 350px;
-}
-.gt-header__menu .gt-menu__list{
-  display: flex;
-  justify-content: center;
-  border-top: 2px solid $beige;
-  border-bottom: 2px solid $beige;
-  margin: 0 auto;
-  width: 80%;
-  padding: 20px 0;
-}
-.gt-header__menu .gt-menu__list .gt-menu__links{
-  position: relative;
-}
-.gt-header__menu .gt-menu__list .gt-menu__links:not(:last-child)::after{
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: -3px;
-  margin: auto;
-  height: 15px;
-  width: 2px;
-  background-color: $beige;
-}
-.gt-header__menu .gt-menu__list .gt-menu__links .gt-menu__link{
- padding: 0 25px;
-}
-.gt-header__menu .gt-menu__list .gt-menu__links .gt-menu__link:hover{
-  color: $blue;
+  &__logo{
+    text-align: center;
+  }
+  &__img{
+    max-width: 350px;
+  }
+  .gt-menu{
+    &__list{
+      display: flex;
+      justify-content: center;
+      border-top: 2px solid $beige;
+      border-bottom: 2px solid $beige;
+      margin: 0 auto;
+      width: 80%;
+      padding: 20px 0;
+    }
+    &__links{
+      position: relative;
+      &:not(:last-child)::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -3px;
+        margin: auto;
+        height: 15px;
+        width: 2px;
+        background-color: $beige;
+      }
+    }
+    &__link{
+     padding: 0 25px;
+     &:hover{
+      color: $blue;
+    }
+    }
+  }
 }
  /* -------------------
  ----- END HEADER -----

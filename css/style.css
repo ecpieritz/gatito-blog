@@ -10,16 +10,13 @@ body {
 .gt-header {
   margin-bottom: 20px;
 }
-
 .gt-header__logo {
   text-align: center;
 }
-
-.gt-header__logo .gt-header__img {
+.gt-header__img {
   max-width: 350px;
 }
-
-.gt-header__menu .gt-menu__list {
+.gt-header .gt-menu__list {
   display: flex;
   justify-content: center;
   border-top: 2px solid #bea185;
@@ -28,12 +25,10 @@ body {
   width: 80%;
   padding: 20px 0;
 }
-
-.gt-header__menu .gt-menu__list .gt-menu__links {
+.gt-header .gt-menu__links {
   position: relative;
 }
-
-.gt-header__menu .gt-menu__list .gt-menu__links:not(:last-child)::after {
+.gt-header .gt-menu__links:not(:last-child)::after {
   content: "";
   position: absolute;
   top: 0;
@@ -44,12 +39,10 @@ body {
   width: 2px;
   background-color: #bea185;
 }
-
-.gt-header__menu .gt-menu__list .gt-menu__links .gt-menu__link {
+.gt-header .gt-menu__link {
   padding: 0 25px;
 }
-
-.gt-header__menu .gt-menu__list .gt-menu__links .gt-menu__link:hover {
+.gt-header .gt-menu__link:hover {
   color: #030eda;
 }
 
