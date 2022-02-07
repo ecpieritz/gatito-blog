@@ -68,13 +68,13 @@ body{
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-}
-.gt-footer .gt-footer__logo{
-  max-width: 100px;
-}
-.gt-footer .gt-footer__txt{
-  margin: auto;
-  font-size: 14px;
+  &__logo{
+    max-width: 100px;
+  }
+  &__txt{
+    margin: auto;
+    font-size: 14px;
+  }
 }
 /* --------------------
  ----- END FOOTER -----
