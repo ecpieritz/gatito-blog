@@ -1,10 +1,24 @@
+.gt-main .gt-sidebar__post-title {
+  text-decoration: none;
+}
+
+.gt-main .gt-sidebar__post-title:hover {
+  text-decoration: underline;
+}
+
 /* ---------------------
- ----- MAIN SECTION -----
- ------------------------ */
+----- MAIN SECTION -----
+------------------------ */
 .gt-main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  /* ---------------------
+  ----- SIDEBAR -----
+  ------------------------ */
+  /* -------------------------
+  ----- END SIDEBAR -----
+  ---------------------------- */
 }
 .gt-main__content {
   width: 70%;
@@ -45,7 +59,7 @@
   margin: 0 10px;
 }
 .gt-main__details {
-  border: 1px solid #bea185;
+  border: 2px solid #bea185;
 }
 .gt-main__img {
   width: 100%;
@@ -97,6 +111,51 @@
 }
 .gt-main__a:hover {
   color: #f10266;
+}
+.gt-main__sidebar {
+  width: 25%;
+  padding: 40px 10px;
+}
+.gt-main .gt-sidebar__top {
+  border: 2px solid #bea185;
+  padding: 15px 20px;
+}
+.gt-main .gt-sidebar__title {
+  background-color: #6dacff;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 0;
+  letter-spacing: 1.5px;
+}
+.gt-main .gt-sidebar__posts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gt-main .gt-sidebar__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px 0;
+}
+.gt-main .gt-sidebar__list:not(:last-child) {
+  border-bottom: 1px dashed #bea185;
+}
+.gt-main .gt-sidebar__img {
+  width: 40%;
+}
+.gt-main .gt-sidebar__details {
+  width: 50%;
+  padding-left: 10px;
+}
+.gt-main .gt-sidebar__post-title {
+  font-size: 14px;
+  color: #f10266;
+}
+.gt-main .gt-sidebar__post-date {
+  font-size: 12px;
+  margin: 5px 0 0 0;
 }
 
 /* -------------------------
