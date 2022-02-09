@@ -1,4 +1,4 @@
-<h1 align = "center"> :fast_forward: Gatito Petshop :rewind: </h1>
+<h1 align = "center"> :fast_forward: Gatito Blog :rewind: </h1>
 
 ## 🖥 Preview
 <p align = "center">
@@ -8,7 +8,7 @@
 </p>
 
 ## 📖 About
-<p>Website for a petshop created to study SASS.</p>
+<p>Website for a pet blog created to study SASS.</p>
 
 ---
 
