@@ -23,10 +23,10 @@
 
 ## 🚀 How to execute the project
 #### Clone the repository
-git clone https://github.com/ecpieritz/gatito-petshop.git
+git clone https://github.com/ecpieritz/gatito-blog.git
 
 #### Enter directory
-`cd gatito-petshop`
+`cd gatito-blog`
 
 #### Run the server
 - right click on the `index.html` file
