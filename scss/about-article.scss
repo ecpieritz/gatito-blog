@@ -1,0 +1,73 @@
+/// Project colors
+$beige-light: #e9e1d9;
+$beige: #bea185;
+$black: #000000;
+$pink: #f10266;
+$blue-light: #6dacff;
+$img-width: 45%;
+
+
+/* -----------------------
+ ----- ARTICLE ABOUT -----
+ ------------------------- */
+ .gt-about{
+   width: 80%;
+   margin: 0 auto 40px;
+  &__title{
+    background-color: $beige;
+    text-align: center;
+    padding: 20px;
+  }
+  &__h1{
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 5px 0 10px 0;
+  }
+  .gt-breadcrumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__link{
+      font-size: 12px;
+      text-decoration: none;
+      &:hover{
+        color: $pink;
+      }
+    }
+    &__img{
+      width: 10px;
+      margin: 8px;
+    }
+  }
+  &__img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  &__intro{
+    font-weight: 100;
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 16px;
+  }
+  &__split{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  &__img-split{
+    width: $img-width;
+  }
+  &__txt{
+    width: calc(100% - #{$img-width});
+  }
+  &__p{
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+ }
+
+/* ---------------------------
+ ----- END ARTICLE ABOUT -----
+ ----------------------------- */

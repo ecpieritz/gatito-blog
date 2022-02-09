@@ -1,0 +1,66 @@
+/* -----------------------
+ ----- ARTICLE ABOUT -----
+ ------------------------- */
+.gt-about {
+  width: 80%;
+  margin: 0 auto 40px;
+}
+.gt-about__title {
+  background-color: #bea185;
+  text-align: center;
+  padding: 20px;
+}
+.gt-about__h1 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin: 5px 0 10px 0;
+}
+.gt-about .gt-breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gt-about .gt-breadcrumb__link {
+  font-size: 12px;
+  text-decoration: none;
+}
+.gt-about .gt-breadcrumb__link:hover {
+  color: #f10266;
+}
+.gt-about .gt-breadcrumb__img {
+  width: 10px;
+  margin: 8px;
+}
+.gt-about__img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.gt-about__intro {
+  font-weight: 100;
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 16px;
+}
+.gt-about__split {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.gt-about__img-split {
+  width: 45%;
+}
+.gt-about__txt {
+  width: calc(100% - 45%);
+}
+.gt-about__p {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+/* ---------------------------
+ ----- END ARTICLE ABOUT -----
+ ----------------------------- */
+
+/*# sourceMappingURL=about.css.map */
