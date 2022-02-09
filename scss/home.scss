@@ -8,6 +8,12 @@ $blue-light: #6dacff;
 %no-decoration{text-decoration: none;}
 %u-decoration{text-decoration: underline;}
 
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* ---------------------
 ----- MAIN SECTION -----
 ------------------------ */
@@ -128,9 +134,7 @@ $blue-light: #6dacff;
       letter-spacing: 1.5px;
     }
     &__posts{
-      margin: 0;
-      padding: 0;
-      list-style: none;
+      @include reset-list;
     }
     &__list{
       display: flex;
